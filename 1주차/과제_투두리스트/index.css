@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: "Noto Sans KR";
+}
+
+#할일들 > p {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+button {
+  background-color: skyblue;
+  border: none;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  transition-duration: 0.4s;
+}
+
+/* done이라는 class 가진 애한테 style저장해라 */
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
